@@ -1,13 +1,14 @@
-import gatorLogo from './gator.gif';
+import logo from './gator.gif';  //updated the import variable to match the teammate's variable name
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={gatorLogo} className="App-logo" alt="logo" />
-        <p> Hello World! </p>
-        <p> My name is Loubna and this is my project </p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+                  Hello World! This is our team project.  {/* Accept the teammate's changes */}
+        </p>	
       </header>
     </div>
   );
